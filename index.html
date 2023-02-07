@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="wrapper">
+    <section class="screen">
+      <input type="text" name="user-input" id="user-input" value="0">
+    </section>
+    <section class="calc-buttons">
+      <div class="row">
+        <button class="button-2x" data-value="clear">C</button>
+        <button data-value="delete">&larr;</button>
+        <button data-value="divide">&divide;</button>
+      </div>
+      <div class="row">
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button data-value="times">&times;</button>
+      </div>
+      <div class="row">
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button data-value="minus">&minus;</button>
+      </div>
+      <div class="row">
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+        <button data-value="plus">&plus;</button>
+      </div>
+      <div class="row">
+        <button class="button-3x" data-value="0">0</button>
+        <button data-value="equals">&equals;</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
